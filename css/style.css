@@ -22,7 +22,6 @@
     url("../fonts/fa-regular-400.ttf") format("truetype"),
     url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
 }
-
 @font-face {
     font-family: 'Font Awesome 5 Brands';
     font-style: normal;
@@ -35,17 +34,14 @@
     url("../fonts/fa-brands-400.ttf") format("truetype"),
     url("../fonts/fa-brands-400.svg#fontawesome") format("svg");
 }
-
 .fab {
     font-family: 'Font Awesome 5 Brands';
     font-weight: 400; }
-
 .fa,
 .fas {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
 }
-
 .fa,
 .fas,
 .far,
@@ -183,7 +179,6 @@
     background-color: #0dd909;
     padding: 10px!important;
 }
-
 .callback_stop {
     display: none;
 }
@@ -200,7 +195,8 @@
     100% {
         box-shadow:0 8px 10px rgba(13, 217, 9, 0.3),0 0 0 30px rgba(13, 217, 9, 0),0 0 0 40px rgba(13, 217, 9, 0.0)
     }
-}@keyframes hoverWave {
+}
+@keyframes hoverWave {
      0% {
          box-shadow:0 8px 10px rgba(13, 217, 9, 0.3),0 0 0 0 rgba(13, 217, 9, 0.2),0 0 0 0 rgba(13, 217, 9, 0.2)
      }
@@ -214,7 +210,6 @@
          box-shadow:0 8px 10px rgba(13, 217, 9, 0.3),0 0 0 30px rgba(13, 217, 9, 0),0 0 0 40px rgba(13, 217, 9, 0.0)
      }
  }
-/* animations icon */
 @keyframes shake {
     0% {
         transform: rotateZ(0deg);
